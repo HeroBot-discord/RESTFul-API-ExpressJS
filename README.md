@@ -5,21 +5,23 @@
 
 #### API.js Content
 
-	Server :
-		start(port)
-		savePath(path)
-	Client :
-		request(opts)
+```
+Server :
+	start(port)
+	savePath(path)
+Client :
+	request(opts)
+```
 
 #### Client Options
 
 ```js
-	{
-		ip:"ip adress",
-		port:"port"
-		/* 
-		You can add more options here for requests
-		Just customise API.js carefully
-		*/
-	}
+{
+	ip:"ip adress",
+	port:"port"
+	/* 
+	You can add more options here for requests
+	Just customise API.js carefully
+	*/
+}
 ```
