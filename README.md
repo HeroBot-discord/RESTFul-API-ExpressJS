@@ -13,6 +13,7 @@
 
 #### Client Options
 
+```js
 	{
 		ip:"ip adress",
 		port:"port"
@@ -21,3 +22,4 @@
 		Just customise API.js carefully
 		*/
 	}
+```
