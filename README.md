@@ -1,9 +1,12 @@
-#### Content :
+#DemoAPI
+## By </UniX>
+
+### Content :
 
 - `Server` Object for servers management
 - `Client` Object for requests
 
-#### API.js Content
+### API.js Content
 
 ```
 Server :
@@ -13,7 +16,7 @@ Client :
 	request(opts)
 ```
 
-#### Client Options
+### Client Options
 
 ```js
 {
