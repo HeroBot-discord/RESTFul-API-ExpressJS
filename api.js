@@ -35,9 +35,10 @@ var startServer = function startServer(port) {
 
         response.writeHead(200);        
 
-        var report_count = JSON.parse(fs.readFileSync(_path + params['id'] + ".json")).rpt_count;
+        // Your process
+        // var data = ...
 
-        response.write("{\"report_count\":\"" + report_count + "\", \"type\":\"Complete\"}");
+        response.write("{\"data\":\"" + data + "\", \"type\":\"Complete\"}");
         response.end();
     });
     server.listen(port);
