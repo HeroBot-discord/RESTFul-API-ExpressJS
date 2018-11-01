@@ -1,4 +1,5 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="UniX" src="https://unix.tk/assets/images/favicon/UniX.png"> 
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="UniX" src="https://unix.tk/assets/images/favicon/UniX.png">
+
 # DemoAPI
 
 [![Discord Server](https://discordapp.com/api/guilds/438860643685367809/embed.png)](https://discord.gg/n9grfub)
