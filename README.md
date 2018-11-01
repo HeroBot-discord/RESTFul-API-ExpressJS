@@ -2,6 +2,8 @@
 
 # DemoAPI
 
+DemoAPI is an example of an API, configurable.
+
 [![Discord Server](https://discordapp.com/api/guilds/438860643685367809/embed.png)](https://discord.gg/n9grfub)
 [![Donate on PayPal](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/stormfoll)
 
