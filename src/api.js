@@ -3,12 +3,11 @@ const url = require('url');
 const querystring = require('querystring');
 const fs = require('fs');
 
-// CLIENT
-
-var client_request = function client_request(opts) {
-    var client_url = "http://" + opts.ip + ":" + opts.port + "/?type=" + opts.type + "&id=" + opts.id;
+// Client
+const clientRequest = function clientRequest(opts) {
+    const clientURL = `http://${opts.ip}:${opts.port}/?type=${opts.type}&id=${opts.id}`;
     
-    http.get(client_url, res => {
+    http.get(clientURL, (res) => {
         var body = '';
         res.on('data', d => {
             body += d;
@@ -42,9 +41,7 @@ var startServer = function startServer(port) {
         response.end();
     });
     server.listen(port);
-    console.log("API Server [> Loading...");
-    console.log("API Server [> Listening on port " + port);
-    console.log("API Server [> Loaded");
+    console.log("API Server [> Listening on port :::${port}:::`);
 }
 
 var setSavePath = function setSavePath(path) {
@@ -58,6 +55,6 @@ module.exports = {
         savePath: setSavePath
     },
     Client: {
-        request: client_request
+        request: clientRequest
     }
 }
