@@ -1,0 +1,30 @@
+{
+  "name": "restful-api",
+  "version": "2.0.0",
+  "description": "A RESTFul API example built with Expressjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha",
+    "lint:eslint": "eslint .",
+    "lint:eslint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "node.js",
+    "express"
+  ],
+  "author": "Daniel (https://github.com/SFallTech)",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "eslint": "^6.7.2",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "rethinkdbdash": "^2.3.31"
+  }
+}
