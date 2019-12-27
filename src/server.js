@@ -62,6 +62,8 @@ class Server {
 	 * @returns {void}
 	 */
 	routesLoader() {
+		// Don't forget to add your routes here, this is required.
+		// If you don't do it, the server will respond a 404
 		this.app.use(new (require("./routes/api"))(this));
 	}
 
@@ -72,7 +74,7 @@ class Server {
 	listen() {
 		return this.app.listen(process.env.PORT || this.config.website.port || 3000, (err) => {
 			if (err) return console.error(err);
-			console.log(`[Server] Running on port :::${process.env.PORT || this.config.website.port || 3000}:::`);
+			console.log(`[Server] Running on port :::${process.env.PORT || this.config.website.port || 3000}`);
 		});
 	}
 }
